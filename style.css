@@ -1,0 +1,70 @@
+* {
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+}
+
+
+body {
+    background:linear-gradient(orange,red);
+}
+
+h2{
+    color: red;
+
+}
+main {
+    display: flex;
+    margin-left: 80px;
+    margin-bottom: 50px;
+} 
+
+.input-texto {
+    margin-top: 90px;
+}
+
+.mensaje {
+    position: relative;
+    margin-top: 20px;
+    margin-left: 90px;
+    background-image: url("images/Muñeco.png");
+    background-repeat: no-repeat;
+    background-position: 18px;
+    background-size: 300px;
+
+}
+
+.copiar {
+    position: relative;
+    margin-top: 20px;
+    margin-left: 205px;
+    background-color: darkblue;
+    color:white;
+}
+
+.botones {
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+}
+
+.encriptar {
+    background-color: darkblue;
+    color:orangered;
+}
+
+.desencriptar {
+    margin-left: 30px;
+    background-color: orangered;
+    color:darkblue;
+}
+
+.informacion {
+    font-size: 15px;
+}
+footer h2{
+    font-weight: bold;
+    text-align: center;
+    color: black;
+}
